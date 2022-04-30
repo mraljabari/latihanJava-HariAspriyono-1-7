@@ -68,9 +68,8 @@ public class Latihan1 {
         System.out.print("masukan nilai ");
         nilai = input.nextInt();
         
-        
-        if (nilai >= 80){
-            status = "Lulus";
+    /*    if (nilai >= 80){
+          status = "Lulus";
             index = "A";
         }else if(nilai >= 70 && nilai < 78){
             status = "Lulus";
@@ -85,6 +84,28 @@ public class Latihan1 {
             status = "Tidak Lulus";
             index = "E";
         }
+    */
+//        if(nilai >= 60){
+//            status = "Lulus";
+//            if(nilai >= 60 && nilai < 70){
+//                index = "C";
+//            }
+//            else if(nilai >= 70 && nilai < 80){
+//                index = "B";
+//            }
+//            else if(nilai >= 80 && nilai < 100){
+//                index = "A";
+//            }
+//        }else{
+//            status = "Tidak Lulus";
+//            if(nilai >= 50 && nilai < 60){
+//                index = "D";
+//            }
+//            else if(nilai >= 40 && nilai < 50){
+//                index = "E";
+//            }
+//        }
+        
         
         System.out.print("nama anda = " + nama +"\n");
         System.out.print("nilai anda = " + nilai + "(" + status + ")\n");
