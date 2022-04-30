@@ -30,29 +30,65 @@ public class Latihan1 {
 //        System.out.println(v);
 //        
 //        System.out.println("Hallo, ini latihan pertama Java");
+
+
 //===================================================================
-//        INPUT SCANNER
+//        04. INPUT SCANNER
         
         //deklarasi variable
-        String nama, alamat;
-        int umur;
+//        String nama, alamat;
+//        int umur;
+//        
+//        //membuat object dari class scanner
+//        Scanner input = new Scanner(System.in);
+//        
+//        System.out.print("masukan nama anda ");
+//        nama = input.nextLine();
+//        System.out.print("masukan alamat anda ");
+//        alamat = input.nextLine();
+//        System.out.print("masukan umur anda ");
+//        umur = input.nextInt();
+//        
+//        
+//        
+//        System.out.print("nama anda = " + nama +"\n");
+//        System.out.print("alamat anda = " + alamat +"\n");
+//        System.out.print("Umur anda = " + umur +"\n");
+//    ====================================================
+
+//    05. STRUKTUR PERCABANGAN
+        String nama, status = null, index = null;
+        int nilai;
         
         //membuat object dari class scanner
         Scanner input = new Scanner(System.in);
         
-        System.out.print("masukan nama anda ");
+        System.out.print("masukan nama mahasiswa ");
         nama = input.nextLine();
-        System.out.print("masukan alamat anda ");
-        alamat = input.nextLine();
-        System.out.print("masukan umur anda ");
-        umur = input.nextInt();
+        System.out.print("masukan nilai ");
+        nilai = input.nextInt();
         
         
+        if (nilai >= 80){
+            status = "Lulus";
+            index = "A";
+        }else if(nilai >= 70 && nilai < 78){
+            status = "Lulus";
+            index = "B";
+        }else if (nilai >= 60 && nilai < 69){
+            status = "Lulus";
+            index = "C";
+        }else if (nilai >= 50 && nilai < 59){
+            status = "Tidak Lulus";
+            index = "D";
+        }else if (nilai < 49){
+            status = "Tidak Lulus";
+            index = "E";
+        }
         
         System.out.print("nama anda = " + nama +"\n");
-        System.out.print("alamat anda = " + alamat +"\n");
-        System.out.print("Umur anda = " + umur +"\n");
-    
+        System.out.print("nilai anda = " + nilai + "(" + status + ")\n");
+        System.out.print("index anda = " + index + "\n");
     }
     
     
