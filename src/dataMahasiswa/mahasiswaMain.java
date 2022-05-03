@@ -24,9 +24,6 @@ public class mahasiswaMain {
         classMahasiswa n = new classMahasiswa();
         
         
-        
-        
-        
         System.out.print("--------------------\n");
         System.out.print("INPUT DATA MAHASISWA\n");
         System.out.print("--------------------\n");
@@ -38,17 +35,7 @@ public class mahasiswaMain {
         System.out.print("Nilai UTS : "); n.uts = input.nextInt();
         System.out.print("Nilai UAS : "); n.uas = input.nextInt();
         
-        
-        System.out.println("--------------------");
-        System.out.println("OUTPUT DATA MAHASISWA");
-        System.out.println("--------------------");
-        System.out.println("Nama Mahasiswa " + nama);
-        System.out.println("NIK Mahasiswa " + nik);
-        System.out.println("Kelas " + kelas);
-        System.out.println("Nilai Kehadiran " + kehadiran);
-        System.out.println("Nilai Tugas-tugas " + tugas);
-        System.out.println("Nilai UTS " + uts);
-        System.out.println("Nilai UAS " + uas);
-    }
+        n.show();
+        }
     
 }

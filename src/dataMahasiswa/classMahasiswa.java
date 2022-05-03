@@ -13,4 +13,19 @@ public class classMahasiswa {
     String nama, kelas;
     int nik, kehadiran, tugas, uts, uas;
     
+    double fungsiHitung(){
+        double hitung = ((tugas*0.1) + (kehadiran*0.2) + (uts*0.1) + (uas*0.1)) / 5;
+        return hitung;
+    }
+    
+    void show(){
+        System.out.print("--------------------\n");
+        System.out.print("-------HASIL--------\n");
+        System.out.print("--------------------\n");
+        System.out.print("Nama Mahasiswa " + nama + "\n");
+        System.out.print("Kelas Mahasiswa " + kelas + "\n");
+        System.out.print("NIK Mahasiswa " + nik + "\n");
+        System.out.print("Nilai Akhir " + fungsiHitung() + "\n");
+    }
+    
 }

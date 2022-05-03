@@ -13,6 +13,7 @@ public class MenghitungNilai {
     String nama;
     int kehadiran, tugas, uts, uas;
     double hasil;
+    public String kelas;
     
     double hitungNilai(){
          hasil = (kehadiran * 0.1) + (tugas * 0.2) + (uts * 0.3) + (uas * 0.4);
