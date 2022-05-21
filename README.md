@@ -1,5 +1,5 @@
 # latihanJava-HariAspriyono-1-7
-latihan java dari channel youtube hari aspriyono bab 1 - 7
+Practice java programing and java Swing from youtube channel hari aspriyono Chapter 1 - 7
 
 ## What to Learn
 Chapter 1. Introduction Java Nerbeans.<br>
